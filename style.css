@@ -1,0 +1,192 @@
+:root {
+    --orange: #F0811B;
+    --light-yellow: #FFE29E;
+    --yellow: #EFC034;
+    --dark-orange:  #E7650E;
+  }
+
+*{
+    margin: 0;
+    font-family: quicksand;
+}
+
+nav{
+    display: flex;
+    background-color: var(--light-yellow);
+    padding: 0.5%;
+    justify-content: space-around;
+}
+
+.navlinks{
+    display: flex;
+    list-style: none;
+    gap: 9%;
+    align-items: center;
+}
+
+.logo{
+  width: 10%; 
+}
+
+.nav-item1{
+    font-weight: 900;
+}
+
+
+.nav-item3{
+    background-color: #F0811B;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+}
+
+.banner{
+    background-color: var(--orange);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.text-banner{
+    width: 40%;
+    padding: 4%;
+    padding-top: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.parragraph{
+    font-size: 250%;
+    text-align: center;
+}
+
+.mujer{
+    width: 22%;
+    margin-right: 10% ;
+    margin-left: -5%;
+    margin-top: 2%;
+}
+
+.buttom-banner{
+    display: flex;
+    margin-top: 8%;
+}
+
+.buttom1{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 800;
+    color: #F0811B;
+}
+
+.buttom2{
+    background-color:#EFC034;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 800;
+    color: white;
+    margin-left: 6px;
+}
+
+.who-we-are{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-hands{
+    width: 30%;
+}
+
+.tittle-first-sec{
+    color: #E7650E;
+    font-weight: 700;
+    font-size: 280%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.text-first-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.text{
+    text-align: center;
+   font-size: large;
+}
+
+.buttom3{
+    
+}
+
+@media (max-width: 480px) {
+
+    .logo{
+        width: 20%; 
+      }
+
+    nav{
+        width: 100%;
+    }
+
+    .navlinks{
+        margin-left: -30%;
+    }
+
+    .text-banner{
+        width: 60%;
+        padding: 3%;
+        padding-top: 8%;
+    }
+
+    .parragraph{
+        font-size: 140%;
+    }
+
+    .mujer{
+        width: 40%;
+        margin-right: 0% ;
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+
+    .buttom1{
+        font-size: small;
+    }
+    
+    .buttom2{
+        font-size: small;
+    }
+
+    .img-hands{
+        width: 45%;
+    }
+
+    .tittle-first-sec{
+        font-size: 140%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .text-first-section{
+        
+        width: 55%;
+        margin-right: 2%;
+    }
+    
+
+    .text{
+
+        font-size: small ;
+    }
+    
+    .buttom3{
+        font-size: small;
+    }
+
+}
