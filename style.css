@@ -93,10 +93,12 @@ nav{
 .who-we-are{
     display: flex;
     justify-content: space-between;
+    background-color: var(--light-yellow);
 }
 
 .img-hands{
-    width: 30%;
+    width: 27%;
+    padding-top: 2%;
 }
 
 .tittle-first-sec{
@@ -104,7 +106,7 @@ nav{
     font-weight: 700;
     font-size: 280%;
     margin-top: 4%;
-    margin-bottom: 4%;
+    
 }
 
 .text-first-section{
@@ -113,6 +115,7 @@ nav{
     align-items: center;
     width: 40%;
     justify-content: space-around;
+    margin-right: 10%;
 }
 
 .text{
@@ -121,7 +124,151 @@ nav{
 }
 
 .buttom3{
+    background-color: #F0811B;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 800;
+    color: white;
+     margin-top: 4%;
+}
+
+.second-section{
+    background-color: #F0811B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card1{
+    background-color: #FFE29E;
+    margin-top: 2%;
+    width: 65%;
+    border-radius: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.img-card1{
+    width: 40%;
+}
+
+.tittle-card1{
+    color: #E7650E;
+    font-weight: 700;
+    font-size: 230%;
+    margin-bottom: 5%;
+    margin-top: 8%;
+}
+
+.text-card{
+    text-align: center;
+    width: 60%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textcard1{
+    text-align: center;
+    width: 60%;
+    margin-bottom: 5%;
+}
+
+.ver-mas-buttom{
+    background-color: #F0811B;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 800;
+    color: white;
+
+}
+
+.third-section{
+    background-color: #FFE29E;
+    display: flex;
+    justify-content: center;
+}
+
+.minicard{
+    background-color: white;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+    padding: 3%;
+    border-radius: 30px;
+}
+
+.textcomment1{
+    text-align: center;
+    margin: 7%;
+    font-weight: 800;
+    width: 100%;
+}
+
+.imgminicard{
+    width: 40%;
+}
+
+.textcomment2{
+    font-weight: 400;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F0811B;
+}
+
+.listfooter{
+    list-style: none;
+    margin-left: 13%;
     
+}
+
+.listfooter1{
+    list-style: none;
+    margin-left: 3%;
+    
+}
+.logofooter{
+    width:13%;
+    padding: 4%;
+}
+
+.list-item-footer{
+    margin-top: 20%;
+    font-weight: 600;
+    color: white;
+    font-size: large;
+    margin-bottom: 10%;
+    
+}
+
+.a-list-item-footer{
+    text-decoration: none;
+    color: white;
+}
+
+.list-item-footer1{
+    margin-top: 35%;
+    font-weight: 600;
+    color: white;
+    font-size: large;
+    margin-bottom: 10%;
+}
+
+.list-item-footer2{
+    margin-top: 30%;
+    font-weight: 600;
+    color: white;
+    font-size: large;
+    margin-bottom: 10%;
 }
 
 @media (max-width: 480px) {
@@ -165,6 +312,7 @@ nav{
 
     .img-hands{
         width: 45%;
+        padding-top: 4%;
     }
 
     .tittle-first-sec{
@@ -177,6 +325,7 @@ nav{
         
         width: 55%;
         margin-right: 2%;
+        padding-bottom: 2%;
     }
     
 
@@ -189,4 +338,95 @@ nav{
         font-size: small;
     }
 
+
+    .card1{
+        background-color: #FFE29E;
+        margin-top: 2%;
+        width: 90%;
+        border-radius: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .img-card1{
+        width: 50%;
+    }
+    
+    .tittle-card1{
+        color: #E7650E;
+        font-weight: 700;
+        font-size: 140%;
+        margin-bottom: 5%;
+        margin-top: 8%;
+    }
+    
+    .text-card{
+        text-align: center;
+        font-size: smaller;
+        margin-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .textcard1{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    
+    .ver-mas-buttom{
+        font-size: small;
+    }
+
+    .minicard{
+        background-color: white;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2%;
+        padding: 3%;
+        border-radius: 30px;
+    }
+    
+    .textcomment1{
+        font-size: 70%;
+    }
+    
+    .imgminicard{
+        width: 40%;
+    }
+    
+    .textcomment2{
+        font-size: smaller;
+    }
+
+
+    .logofooter{
+        width:20%;
+        padding: 2%;
+    }
+    
+
+    .listfooter1{
+        margin-left: -5;
+        list-style: none;
+    }
+
+    .list-item-footer{
+        font-size: smaller;
+        margin-left: -100%;
+    }
+
+    .list-item-footer1{
+        font-size: smaller;
+        
+    }
+
+    .list-item-footer2{
+        font-size: smaller;
+        margin-left: -120%;
+    }
 }
