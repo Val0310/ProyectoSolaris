@@ -1,0 +1,369 @@
+:root {
+    --orange: #F0811B;
+    --light-yellow: #FFE29E;
+    --yellow: #EFC034;
+    --dark-orange:  #E7650E;
+  }
+
+*{
+    margin: 0;
+    font-family: quicksand;
+}
+
+nav{
+    display: flex;
+    background-color: var(--light-yellow);
+    padding: 0.5%;
+    justify-content: space-around;
+}
+
+.navlinks{
+    display: flex;
+    list-style: none;
+    gap: 9%;
+    align-items: center;
+}
+
+.logo{
+  width: 10%; 
+}
+
+.nav-item1{
+    font-weight: 900;
+}
+
+
+.nav-item3{
+    background-color: #F0811B;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+}
+
+.first-section{
+    background-color: #F0811B;
+}
+
+.tittle{
+    color: white;
+    font-size: 270%;
+    font-weight: 900;
+}
+
+.tittle3{
+    color: white;
+    font-size: 270%;
+    font-weight: 900;
+
+}
+
+.parragraph{
+    color: white;
+}
+
+.text1{
+    width: 30%;
+    padding: 6%;
+    padding-left: 10%;
+    position: relative;
+}
+
+
+.imagen{
+    width: 100%;
+    position: absolute;
+  
+}
+
+.principio{
+    display: flex ;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.prinimg{
+    width: 80%;
+}
+
+.second-section{
+    display: flex;
+    background-color: #F0811B;
+    margin-top: 4%;
+    justify-content: center;
+   
+}
+
+.tittle2{
+    color: white;
+    font-size: 130%;
+    font-weight: 700;
+}
+
+.principiosection{
+    margin-top: 13%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.textosolo{
+    color: #F0811B;
+}
+
+.titulo{
+    color: white;
+    font-size: 180%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.misionvision{
+    background-color: #FFE29E;
+    padding-top: 3%;
+    padding-bottom: 0.1%;
+}
+
+.textcards{
+    background-color: #F0811B;
+    width: 20%;
+    padding: 5% 3% 5% 3%;
+    border-radius: 90px;
+    margin-left: -8%;
+}
+
+.textcardsvision{
+    background-color: #F0811B;
+    width: 20%;
+    padding: 5% 3% 5% 3%;
+    border-radius: 90px;
+    margin-left: -8%;
+}
+
+.mision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.imagencards{
+    width: 18%;
+    margin-left: 5%;
+}
+
+.imgmision{
+    width: 150%;
+
+}
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F0811B;
+}
+
+.listfooter{
+    list-style: none;
+    margin-left: 13%;
+    
+}
+
+.listfooter1{
+    list-style: none;
+    margin-left: 3%;
+    
+}
+.logofooter{
+    width:13%;
+    padding: 4%;
+}
+
+.list-item-footer{
+    margin-top: 20%;
+    font-weight: 600;
+    color: white;
+    font-size: large;
+    margin-bottom: 10%;
+    
+}
+
+.a-list-item-footer{
+    text-decoration: none;
+    color: white;
+}
+
+.list-item-footer1{
+    margin-top: 35%;
+    font-weight: 600;
+    color: white;
+    font-size: large;
+    margin-bottom: 10%;
+}
+
+.list-item-footer2{
+    margin-top: 30%;
+    font-weight: 600;
+    color: white;
+    font-size: large;
+    margin-bottom: 10%;
+}
+
+
+
+
+@media (max-width: 480px) {
+
+    .logo{
+        width: 20%; 
+      }
+
+    nav{
+        width: 100%;
+    }
+
+    .navlinks{
+        margin-left: -30%;
+    }
+
+
+
+
+    .logofooter{
+        width:20%;
+        padding: 2%;
+    }
+    
+
+    .listfooter1{
+        margin-left: -5;
+        list-style: none;
+    }
+
+    .list-item-footer{
+        font-size: smaller;
+        margin-left: -100%;
+    }
+
+    .list-item-footer1{
+        font-size: smaller;
+        
+    }
+
+    .list-item-footer2{
+        font-size: smaller;
+        margin-left: -120%;
+    }
+
+    .text1{
+        padding-top: 2%;
+    }
+    
+    .tittle{
+        
+        font-size: 140%;
+       
+    }
+    
+    .tittle3{
+        
+        font-size: 140%;
+        
+    
+    }
+    
+    .parragraph{
+        color: white;
+        font-size: x-small;
+    }
+    
+    .text1{
+        width: 40%;
+        padding: 2%;
+        padding-left: 6%;
+        position: relative;
+    }
+    
+    
+    .imagen{
+        width: 100%;
+        position: absolute;
+        margin-top: 15%;
+      
+    }
+    
+    
+    .prinimg{
+        width: 60%;
+    }
+    
+    
+    .tittle2{
+        color: white;
+        font-size: 100%;
+        font-weight: 700;
+    }
+    
+    .principiosection{
+        margin-top: 15%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .textosolo{
+        color: #F0811B;
+    }
+
+    .titulo{
+        font-size: 140%;
+        
+    }
+    
+    .misionvision{
+        background-color: #FFE29E;
+        padding-top: 3%;
+        padding-bottom: 0.1%;
+    }
+    
+    .textcards{
+        background-color: #F0811B;
+        width: 40%;
+
+        border-radius: 50px;
+       
+    }
+    
+    .textcardsvision{
+        background-color: #F0811B;
+        width: 40%;
+    
+        border-radius: 50px;
+        margin-left: -8%;
+    }
+    
+    .mision{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+    
+    .imagencards{
+        width: 30%;
+        margin-right: 5%;
+    }
+    
+    .imgmision{
+        width: 150%;
+    
+    }
+}
