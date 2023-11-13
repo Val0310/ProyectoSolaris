@@ -32,6 +32,20 @@ nav{
     font-weight: 900;
 }
 
+.nav-item2{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item31{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item312{
+    text-decoration: none;
+    color: var(--orange);
+}
 
 .nav-item3{
     background-color: #F0811B;
