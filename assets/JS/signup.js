@@ -1,22 +1,19 @@
-const signupform = document.querySelector('#formulario')
-
-signupform.addEventListener('submit', (e) =>{
+const signupForm = document.querySelector('#signupForm')
+signupForm.addEventListener('submit', (e)=>{
     e.preventDefault()
-
-    const name = document.querySelector('#nombre').value
-    const apellido = document.querySelector('#apellido').value
+    const name = document.querySelector('#name').value
     const email = document.querySelector('#email').value
-    const password = document.querySelector('#contraseña').value
+    const password = document.querySelector('#password').value
 
     const Users = JSON.parse(localStorage.getItem('users')) || []
     const isUserRegistered = Users.find(user => user.email === email)
-
-    if (isUserRegistered){
-        return alert('El usuario ya está registrado')
+    if(isUserRegistered){
+        return alert('El usuario ya esta registado!')
     }
 
-    Users.push({name: name, apellido: apellido, email: email, password: contraseña})
-    localStorage.setItem('users'. JSON.stringify(Users))
-    alert ('Registro exitoso')
+    Users.push({name: name, email: email, password: password})
+    localStorage.setItem('users', JSON.stringify(Users))
+    alert('Registro Exitoso!')
+    window.location.href = 'login.html'
 
 })
