@@ -15,6 +15,9 @@ nav{
     background-color: var(--light-yellow);
     padding: 0.5%;
     justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    box-shadow: -2px 29px 44px -22px rgba(240,129,27,0.75);
 }
 
 .navlinks{
@@ -289,6 +292,7 @@ footer{
 
     .logo{
         width: 20%; 
+        margin-left: -18%;
       }
 
     nav{
@@ -302,7 +306,7 @@ footer{
     .text-banner{
         width: 60%;
         padding: 3%;
-        padding-top: 8%;
+        padding-top: 15%;
     }
 
     .parragraph{
@@ -313,7 +317,7 @@ footer{
         width: 40%;
         margin-right: 0% ;
         margin-left: 0%;
-        margin-top: 2%;
+        margin-top: 10%;
     }
 
     .buttom1{
