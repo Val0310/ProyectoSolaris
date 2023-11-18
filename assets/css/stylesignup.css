@@ -55,6 +55,7 @@ body{
     text-align: center;
     margin-top: 15%;
     border: 0;
+    width: 70%;
 }
 
 .buttom1:hover{
@@ -75,6 +76,7 @@ input{
     outline: none;
    border: 0;
    padding: 3%;
+   margin: 9%;
 }
 
 
@@ -102,11 +104,15 @@ form{
 
 
 .genero{
-    display: flex;
-    justify-content: space-around;
-    gap: 5%;
+   display: flex;
+   justify-content: space-around;
 }
 
+.genero input{
+    display: flex;
+    margin: 2.5%;
+    justify-content: center;
+ }
 @media (max-width: 480px) {
 
     input{

@@ -1,5 +1,4 @@
 *{
-    
     margin: 0;
     padding: 0;
     font-family: Quicksand;
@@ -40,15 +39,16 @@ label{
 }
 .buttom2{
     background-color: #F0811B;
-    padding: 9px;
+    padding: 7px;
     border-radius: 10px;
     font-weight: 900;
     font-size: large;
     text-align: center;
-    margin-top: 27%;
+    margin-top: 15%;
     border: 0;
     text-decoration: none;
     color: white;
+    width: 90%;
 }
 
 .buttom1:hover{
@@ -68,6 +68,7 @@ input{
     outline: none;
    border: 0;
    padding: 5%;
+   margin: 19%;
 
 }
 
